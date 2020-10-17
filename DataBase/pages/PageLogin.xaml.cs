@@ -39,6 +39,7 @@ namespace DataBase.pages
                 {
                     case 1:
                         MessageBox.Show("Вы вошли как администратор");
+                        FrameLoad.FrameMain.Navigate(new PageAdminMenu());
                         break;
                     default:
                         MessageBox.Show("Системная ошибка");

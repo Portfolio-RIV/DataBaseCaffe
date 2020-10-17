@@ -1,0 +1,28 @@
+﻿<Page x:Class="DataBase.pages.PageAddClient"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DataBase.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageAddClient">
+
+    <Grid>
+        <StackPanel>
+            <StackPanel Margin="10">
+                <TextBlock Text="Введите логин" FontSize="20"/>
+                <TextBox Name="txbLogin" FontSize="20"/>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <TextBlock Text="Введите пароль" FontSize="20"/>
+                <TextBox Name="txbPassword" FontSize="20"/>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <TextBlock Text="Введите код роли" FontSize="20"/>
+                <TextBox Name="txbRole" FontSize="20"/>
+            </StackPanel>
+            <Button Name="btnAddUser" Content="Дрбавить пользователя в базу данных" Margin="10" FontSize="20"/>
+        </StackPanel>
+    </Grid>
+</Page>
